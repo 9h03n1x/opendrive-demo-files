@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenDRIVE revMajor="1" revMinor="6">
+  <header revMajor="1" revMinor="6" name="My two Road"/>
+  <road name="My Road 1" id="1" length="11.0">
+    <link>
+      <successor elementType="road" elementId="2" contactPoint="start"/>
+    </link>
+    <planView>
+      <geometry s="0.0" x="0.0" y="0.0" hdg="0.0" length="10.0">
+        <line/>
+      </geometry>
+      <geometry s="10.0" x="10.0" y="0.0" hdg="0.0" length="1.0">
+        <spiral curvStart="0.0" curvEnd="-0.127"/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+    </elevationProfile>
+    <lateralProfile>
+      <superelevation s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+      <crossfall s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+    </lateralProfile>
+    <lanes>
+      <laneSection s="0.0">
+        <left>
+          <lane id="3" type="sidewalk">
+            <width s="0.0" a="2.0"/>
+          </lane>
+          <lane id="2" type="shoulder">
+            <width s="0.0" a="0.3"/>
+          </lane>
+          <lane id="1" type="driving">
+            <width s="0.0" a="3.5"/>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none">
+            <width s="0.0" a="0"/>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving">
+            <width s="0.0" a="3.5"/>
+          </lane>
+          <lane id="-2" type="shoulder">
+            <width s="0.0" a="0.3"/>
+          </lane>
+          <lane id="-3" type="sidewalk">
+            <width s="0.0" a="2.0"/>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <signals/>
+    <objects/>
+  </road>
+</OpenDRIVE>

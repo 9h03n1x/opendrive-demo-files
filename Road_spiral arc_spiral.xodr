@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenDRIVE revMajor="1" revMinor="6">
+  <header revMajor="1" revMinor="6" name="My two Road"/>
+  <road name="My Road 1" id="1" length="30.0">
+    <link>
+      <successor elementType="road" elementId="2" contactPoint="start"/>
+    </link>
+    <planView>
+      <geometry s="0.0" x="0.0" y="0.0" hdg="0.0" length="10.0">
+        <line/>
+      </geometry>
+      <geometry s="10.0" x="10.0" y="0.0" hdg="0.0" length="1.0">
+        <spiral curvStart="0.0" curvEnd="-0.127"/>
+      </geometry>
+      <geometry s="11.0" x="10.9995" y="-0.0210" hdg="-0.0127" length="8.0">
+        <arc curvature="-1.27e-01"/>
+      </geometry>
+      <geometry s="19.0" x="17.6443" y="-3.8318" hdg="-1" length="1.0">
+        <spiral curvStart="-0.127" curvEnd="0.0"/>
+      </geometry>
+      <geometry s="20.0" x="18.1484" y="-4.6953" hdg="-1.1127" length="10.0">
+        <line/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+    </elevationProfile>
+    <lateralProfile>
+      <superelevation s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+      <crossfall s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+    </lateralProfile>
+    <lanes>
+      <laneSection s="0.0">
+        <left>
+          <lane id="3" type="sidewalk">
+            <width s="0.0" a="2.0"/>
+          </lane>
+          <lane id="2" type="shoulder">
+            <width s="0.0" a="0.3"/>
+          </lane>
+          <lane id="1" type="driving">
+            <width s="0.0" a="3.5"/>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="none">
+            <width s="0.0" a="0"/>
+            <roadMark sOffset="0.0" width="0.2" type="broken" color="white" laneChange="both"/>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving">
+            <width s="0.0" a="3.5"/>
+          </lane>
+          <lane id="-2" type="shoulder">
+            <width s="0.0" a="0.3"/>
+          </lane>
+          <lane id="-3" type="sidewalk">
+            <width s="0.0" a="2.0"/>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <signals/>
+    <objects/>
+  </road>
+</OpenDRIVE>
